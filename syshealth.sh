@@ -26,7 +26,7 @@ EOF
 UPTIME=$(uptime -p)
 DISK_USAGE=$(df -h / | tail -1)
 MEMORY_USAGE=$(free -h | awk '/Mem:/ {print $3 "/" $2}')
-PROCESS_COUNT=$(ps -e | wc -1)
+PROCESS_COUNT=$(ps -e | wc -l)
 
 # --- Output handling ---
 OUTPUT_HANDLING="${1:-}"   # if $1 is given, use it; else print to screen
