@@ -29,7 +29,7 @@ MEMORY_USAGE=$(free -h | awk '/Mem:/ {print $3 "/" $2}')
 PROCESS_COUNT=$(ps -e | wc -l)
 
 # --- Output handling ---
-OUTPUT_HANDLING="${1:-}"   # if $1 is given, use it; else print to screen
+OUTPUT_FILE="${1:-}"   # if $1 is given, use it; else print to screen
 
 print_report() {
 printf "=====================================\n"
