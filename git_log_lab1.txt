@@ -1,4 +1,7 @@
-* 824ddf0 (HEAD -> master) Add positional argument handling and report output
+* f8eba25 (HEAD -> master) Finalize comments, formatting, and report output
+* 575d60c Comments explaining commands added
+* 2dace40 Lab 1 deliverables final
+* 824ddf0 Add positional argument handling and report output
 * 6f93b45 Implement command substitution for system metrics
 * 2efd40f Demonstrate quoting rules with explanatory comment
 * 7312a52 Add shebang and make syshealth.sh executable
